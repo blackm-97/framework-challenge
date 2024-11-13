@@ -3,9 +3,10 @@ html, body{
     color: #3C1518;
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: 96%;
     width: 100%;
 }
+
 
 main{
     background-image: url(images/Map.png);
@@ -19,8 +20,13 @@ main{
 
 .content{
     text-align: center;
+    padding: 110px 0;
 }
 
 h1{
     font-size: 10em;
+}
+
+.hot-sauce{
+    float: left;
 }
