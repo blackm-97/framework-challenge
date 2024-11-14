@@ -27,9 +27,13 @@ h1{
     font-size: 10em;
 }
 
-main img{
+.fire{
+    height: 50px;
+    margin-left: 5px;
+}
+
+.arrow-sign{
     height: 100px;
     margin: 0;
     margin-top: 10px;
-    
 }
