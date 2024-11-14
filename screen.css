@@ -3,19 +3,19 @@ html, body{
     color: #3C1518;
     margin: 0;
     padding: 0;
-    height: 96%;
+    height: 100%;
     width: 100%;
+    background-image: url(images/Map.png);
+    background-color: rgba(255, 253, 154, 0.6);
+    background-blend-mode: lighten;
 }
 
 
 main{
-    background-image: url(images/Map.png);
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(255, 253, 154, 0.6);
-    background-blend-mode: lighten;
 }
 
 .content{
@@ -27,6 +27,9 @@ h1{
     font-size: 10em;
 }
 
-.hot-sauce{
-    float: left;
+main img{
+    height: 100px;
+    margin: 0;
+    margin-top: 10px;
+    
 }
